@@ -1,0 +1,26 @@
+{
+  "name": "lazy-fs",
+  "version": "0.0.1",
+  "description": "Extension to add functional syntax to the file system. Use Lazy.js https://github.com/dtao/lazy.js under the hood.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Hyzhak/lazy-fs.git"
+  },
+  "keywords": [
+    "fs",
+    "lazy.js"
+  ],
+  "author": "Eugene Krevenets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hyzhak/lazy-fs/issues"
+  },
+  "homepage": "https://github.com/Hyzhak/lazy-fs"
+}
