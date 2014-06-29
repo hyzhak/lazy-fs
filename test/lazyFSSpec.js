@@ -24,7 +24,8 @@ describe('lazy-fs', function() {
     it('should iterate thought files and directives in folder', function(done) {
         try {
             lazyfs.dir('test-folder', { recursive: true })
-//                current implementation of lazy.js doesn't have sortBy for AsyncSequence
+
+//TODO: current implementation of lazy.js doesn't have sortBy for AsyncSequence
 //                .sortBy(lazyfs.nameOfFile)
                 .toArray()
                 .then(function(files) {
@@ -63,8 +64,8 @@ describe('lazy-fs', function() {
         } catch(e) {
             done(e);
         }
-            //use it when Dan Tao will implement A/Promises in AsyncIteration
-            //.catch(done);
+        //TODO: use it when Dan Tao will implement A/Promises in AsyncIteration
+        //.catch(done);
     });
 
     it('should recursively iterate thought all files and directives in folder', function(done) {
@@ -98,8 +99,8 @@ describe('lazy-fs', function() {
         } catch(e) {
             done(e);
         }
-            //use it when Dan Tao will implement A/Promises in AsyncIteration
-            //.catch(done);
+        //TODO: use it when Dan Tao will implement A/Promises in AsyncIteration
+        //.catch(done);
     });
 
     it('should filter files', function(done) {
@@ -128,8 +129,8 @@ describe('lazy-fs', function() {
         } catch(e) {
             done(e);
         }
-            //use it when Dan Tao will implement A/Promises in AsyncIteration
-            //.catch(done);
+        //TODO: use it when Dan Tao will implement A/Promises in AsyncIteration
+        //.catch(done);
     });
 
     after(function() {
