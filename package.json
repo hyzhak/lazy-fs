@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Hyzhak/lazy-fs/issues"
   },
-  "homepage": "https://github.com/Hyzhak/lazy-fs"
+  "homepage": "https://github.com/Hyzhak/lazy-fs",
+  "dependencies": {
+    "lazy.js": "^0.3.2"
+  }
 }
