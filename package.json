@@ -1,6 +1,6 @@
 {
   "name": "lazy-fs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Extension to add functional syntax to the file system. Use Lazy.js https://github.com/dtao/lazy.js under the hood.",
   "main": "index.js",
   "directories": {
