@@ -16,7 +16,7 @@ $ npm install lazy-fs --save
 var lazyfs = require('lazy-fs');
 
 /**
- * get all 'model.js' in ./modules folder and instanticate them with config
+ * get all 'model.js' in ./modules folder and instantiate them with config
  */
 
 lazyfs.dir(path.join(__dirname, 'modules'))
@@ -24,7 +24,6 @@ lazyfs.dir(path.join(__dirname, 'modules'))
     .filter(function(file) {
         return file.name === 'model.js';
     ))
-    .async() //hack because right now AsyncSequence doesn't have filter function 
     .each(function(model) {
         //instantiate model
         require(model.path)(config);
